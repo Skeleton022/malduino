@@ -234,6 +234,7 @@ class malduinoScriptConverter{
 						if(lang == "tr_TR") keyboardCPP = "#define ADD_ALTGR\r\n";
 						if(lang == "cs_CZ_QWERTY") keyboardCPP = "#define ADD_ALTGR\r\n";
 						if(lang == "cs_CZ_QWERTZ") keyboardCPP = "#define ADD_ALTGR\r\n";						
+						if(lang == "hu_HU") keyboardCPP = "#define ADD_ALTGR\r\n";
 						keyboardCPP += keyboardCPPbegin + langCopyrightNotice + langFile + keyboardCPPend;
 						loaded++;
 						
